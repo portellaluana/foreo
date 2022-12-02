@@ -1,0 +1,556 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap");
+
+@font-face {
+  font-family: "Montserrat", sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+}
+
+main {
+  justify-content: center;
+  margin: auto;
+}
+
+section.logo-foreo {
+  display: flex;
+  flex-wrap: wrap;
+  height: 253px;
+  margin: auto;
+  justify-items: center;
+}
+
+section.logo-foreo img {
+  margin: auto;
+}
+
+#presentation {
+  background-image: url(./assets/2\ UFO\ 2\ motion\ 2_169.gif);
+  min-height: 100vh;
+  background-size: cover;
+  background-position: top center;
+  position: relative;
+  display: flex;
+}
+
+#presentation img {
+  width: 100%;
+}
+.info-card-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.info-card {
+  margin-bottom: 40px;
+}
+
+.info-card h2 {
+  position: absolute;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  margin: 0;
+  padding: 0;
+  align-self: flex-end;
+  bottom: 40px;
+  left: 60px;
+  width: 280px;
+  font-size: 37px;
+  color: #fff;
+}
+
+.ritual-de-skincare {
+  text-align: center;
+  width: 900px;
+  margin-top: 64px;
+  margin: auto;
+}
+
+.ritual-de-skincare-p {
+  width: 967px;
+}
+
+.ritual-de-skincare h3 {
+  font-family: "Montserrat", sans-serif;
+  line-height: 23px;
+  font-weight: 400;
+  font-size: 19px;
+  text-transform: uppercase;
+  color: #343f48;
+  margin-top: 64px;
+}
+
+.ritual-de-skincare h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 37px;
+  width: 600px;
+  margin: auto;
+  margin-top: 12px;
+  color: #343f48;
+}
+
+.ritual-de-skincare p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 19px;
+  margin: auto;
+  margin-top: 26px;
+  line-height: 23px;
+  color: #000;
+}
+
+.ritual-de-skincare ul {
+  justify-content: center;
+  display: flex;
+  gap: 32px;
+  margin-top: 80px;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  text-align: left;
+  padding: 0;
+}
+
+.ritual-de-skincare li {
+  display: grid;
+  width: 351px;
+  height: 351px;
+  margin: 0;
+  padding: 0;
+}
+
+.ritual-de-skincare ul p {
+  padding-bottom: 12px;
+  font-weight: normal;
+  color: #343f48;
+}
+
+.ritual-de-skincare ul p span a {
+  color: #343f48;
+  font-weight: 700;
+  padding-left: 20px;
+}
+
+.ritual-de-skincare li p {
+  font-weight: 700;
+  padding-bottom: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+  display: flex;
+  width: 351px;
+  box-sizing: border-box;
+  justify-content: space-between;
+  color: #343f48;
+}
+
+.ritual-de-skincare p.p-bold {
+  font-weight: 700;
+  color: #343f48;
+}
+
+.ritual-de-skincare p.p-bold-white {
+  color: #fff;
+}
+
+.ritual-de-skincare li p span a {
+  font-weight: 700;
+  color: #fff;
+}
+
+.ritual-de-skincare li {
+  align-content: flex-end;
+}
+
+.ritual-de-skincare div li.passo1-container {
+  background-image: url(./assets/FOREO_DAY4_4542_34.jpg);
+  background-repeat: no-repeat;
+  justify-content: end;
+}
+
+.ritual-de-skincare div li.passo2-container {
+  background-image: url(./assets/FOREO_DAY9_13162_34.jpg);
+  background-repeat: no-repeat;
+  justify-content: end;
+}
+
+.ritual-de-skincare div li.passo3-container {
+  background-image: url(./assets/FOREO_DAY1_1054_916.jpg);
+  background-repeat: no-repeat;
+  justify-content: end;
+}
+
+.oral-care {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 1117px;
+  margin: auto;
+  align-items: flex-end;
+}
+
+.oral-care ul {
+  list-style: none;
+  justify-content: left;
+  margin: 0;
+  padding: 0;
+  margin-top: 44px;
+}
+
+.oral-care h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 19px;
+  text-transform: uppercase;
+  color: #343f48;
+  margin-bottom: 12px;
+  letter-spacing: 0.405em;
+}
+
+.oral-care h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 37px;
+  width: 352px;
+  margin-bottom: 24px;
+  color: #343f48;
+}
+
+.oral-care p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 19px;
+  line-height: 23px;
+  max-width: 100%;
+  color: #000;
+  font-weight: 400;
+  margin: 0;
+}
+
+.oral-care-div-li-bebe-crianca {
+  display: flex;
+  margin-top: 24px;
+  gap: 32px;
+}
+
+.oral-care-div-li-bebe-crianca li {
+  display: flex;
+  flex-wrap: wrap;
+  width: 234px;
+  height: 367px;
+  margin: 0;
+  padding: 0;
+  align-content: space-between;
+}
+
+.oral-care-div-li-adulto li {
+  width: 585px;
+  height: 636px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.oral-care-bebes p,
+.oral-care-criancas p,
+.oral-care-adultos p {
+  padding: 12px;
+  text-decoration: underline;
+  font-weight: 700;
+  color: #343f48;
+}
+
+.oral-care-bebes p,
+.oral-care-criancas p {
+  color: #fff;
+}
+
+.oral-care-bebes a,
+.oral-care-criancas a,
+.oral-care-adultos a {
+  padding: 12px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  color: #343f48;
+  font-weight: 700;
+}
+
+.oral-care-adultos a {
+  color: #fff;
+}
+
+.oral-care-bebes {
+  background-image: url(./assets/FOREO_DAY3_3256_916.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.oral-care-criancas {
+  background-image: url(./assets/FOREO_DAY_9348__916.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.oral-care-adultos {
+  background-image: url(./assets/FOREO_DAY_8716_916.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.banner-serum-container {
+  justify-content: left;
+  position: relative;
+  box-sizing: border-box;
+  margin: auto;
+  width: 1117px;
+  margin-top: 96px;
+}
+
+.banner-serum {
+  position: absolute;
+  align-self: end;
+  bottom: 68px;
+  left: 28px;
+}
+
+.banner-serum h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 37px;
+  color: #ffffff;
+  width: 279px;
+  margin: 0;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  padding: 0;
+}
+
+.banner-serum h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.banner-serum a {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  color: #fff;
+  font-weight: 700;
+  padding: 0;
+  margin: 0;
+}
+
+.amado-pelas-celebridades {
+  text-align: center;
+  width: 1117px;
+  margin: auto;
+}
+
+.amado-pelas-celebridades h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.405em;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #343f48;
+  margin: 0;
+  margin-bottom: 60px;
+  margin-top: 84px;
+}
+
+.amado-pelas-celebridades ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  justify-content: space-between;
+}
+
+.amado-pelas-celebridades ul li {
+  width: 322px;
+}
+
+.amado-pelas-celebridades p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  max-width: 100%;
+  color: #000;
+  margin: 0;
+  margin-top: 16px;
+  margin-bottom: 112px;
+}
+
+.um-cuidado-a-mais {
+  width: 1117px;
+  margin: auto;
+}
+
+.um-cuidado-a-mais-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.um-cuidado-a-mais ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 44px;
+}
+
+.um-cuidado-a-mais h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 19px;
+  text-transform: uppercase;
+  color: #343f48;
+  margin-bottom: 12px;
+  letter-spacing: 0.405em;
+  margin-top: 34px;
+}
+
+.um-cuidado-a-mais h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 37px;
+  width: 419px;
+  margin-bottom: 24px;
+  color: #343f48;
+  margin-right: 32px;
+}
+
+.um-cuidado-a-mais p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 19px;
+  line-height: 23px;
+  width: 411px;
+  color: #000;
+  font-weight: 400;
+  margin: 0;
+}
+
+.um-cuidado-a-mais-div-li {
+  display: flex;
+  margin-top: 24px;
+  gap: 32px;
+}
+
+.um-cuidado-a-mais-div-li li {
+  display: flex;
+  flex-wrap: wrap;
+  width: 317px;
+  height: 558px;
+  margin: 0;
+  padding: 0;
+  align-content: space-between;
+  justify-content: flex-start;
+}
+
+.um-cuidado-a-mais-revitalizacao p,
+.um-cuidado-a-mais-espuma p {
+  padding: 12px;
+  text-decoration: underline;
+  font-weight: 700;
+  color: #343f48;
+}
+
+.um-cuidado-a-mais-revitalizacao p,
+.um-cuidado-a-mais-espuma p {
+  font-size: 15px;
+  color: #fff;
+}
+
+.um-cuidado-a-mais-revitalizacao {
+  background-image: url(./assets/IRIS_PRODUCT_916.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.um-cuidado-a-mais-espuma {
+  background-image: url(./assets/FOREO_DAY7_10595_34.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.um-cuidado-a-mais-div-li .p-bold-white {
+  align-items: flex-end;
+  text-decoration: none;
+}
+
+.um-cuidado-a-mais-div-li .p-bold-white-quebra {
+  width: 156px;
+}
+
+.um-cuidado-a-mais-revitalizacao a,
+.um-cuidado-a-mais-espuma a {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  color: #343f48;
+  font-weight: 700;
+  width: 115px;
+}
+
+.um-cuidado-a-mais-div-li li p,
+.um-cuidado-a-mais-div-li li a {
+  display: flex;
+  color: #fff;
+  font-size: 15px;
+  justify-content: space-between;
+}
+
+.o-que-a-imprensa-diz {
+  text-align: center;
+  width: 1117px;
+  margin: auto;
+}
+
+.o-que-a-imprensa-diz h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.405em;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #343f48;
+  margin: 0;
+  margin-bottom: 60px;
+  margin-top: 90px;
+}
+
+.o-que-a-imprensa-diz ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  justify-content: space-between;
+  gap: 80px;
+}
+
+.o-que-a-imprensa-diz ul li {
+  width: 370px;
+}
+
+.o-que-a-imprensa-diz p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  max-width: 100%;
+  color: #000;
+  margin: 0;
+  margin-top: 16px;
+  margin-bottom: 112px;
+}
