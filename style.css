@@ -1,568 +1,128 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap"); */
 
-@font-face {
+/* @font-face {
   font-family: "Montserrat", sans-serif;
   src: url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap");
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  justify-content: center;
-}
-
-main {
-  justify-content: center;
-  margin: auto;
-}
-
-section.logo-foreo {
-  display: flex;
-  flex-wrap: wrap;
-  height: 15.8rem;
-  margin: auto;
-  justify-items: center;
-}
-
-section.logo-foreo img {
-  margin: auto;
-}
-
-#presentation {
-  background-image: url(./assets/2\ UFO\ 2\ motion\ 2_169.gif);
-  min-height: 100vh;
-  background-size: cover;
-  background-position: top center;
-  position: relative;
-  display: flex;
-}
-
-#presentation img {
-  width: 100%;
-}
-
-.info-card-container {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-}
-
-.info-card {
-  margin-bottom: 2.5rem;
-}
-
-.info-card h2 {
-  position: absolute;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 800;
-  margin: 0;
-  padding: 0;
-  align-self: flex-end;
-  bottom: 2.5rem;
-  left: 3.75rem;
-  width: 17.5rem;
-  font-size: 2.3rem;
-  color: #fff;
-}
-
-.ritual-de-skincare {
-  /* min-height: 100vh; */
-  text-align: center;
-  min-width: 80%;
-  width: 24rem;
-  margin-top: 4rem;
-  margin: auto;
-  justify-content: center;
-}
-
-.ritual-de-skincare h3 {
-  font-family: "Montserrat", sans-serif;
-  line-height: 1.4rem;
-  font-weight: 400;
-  font-size: 1.18rem;
-  text-transform: uppercase;
-  color: #343f48;
-  margin-top: 4rem;
-}
-
-.ritual-de-skincare h2 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 800;
-  font-size: 37px;
-  margin: auto;
-  margin-top: 0.75rem;
-  color: #343f48;
-}
-
-.ritual-de-skincare p {
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.18rem;
-  margin: auto;
-  margin-top: 1.6rem;
-  line-height: 1.4rem;
-  color: #000;
-}
-
-.ritual-de-skincare ul {
-  justify-content: center;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.8rem;
-  margin-top: 5rem;
-  text-decoration: none;
-  list-style: none;
-  box-sizing: border-box;
-  text-align: left;
-  padding: 0;
-  margin-bottom: 2.75rem;
-}
-
-.ritual-de-skincare li {
-  display: grid;
-  width: 21.9rem;
-  height: 21.9rem;
-  margin: 0;
-  padding: 0;
-  flex: 1;
-}
-
-.ritual-de-skincare ul p {
-  padding-bottom: 0.75rem;
-  font-weight: normal;
-  color: #343f48;
-}
-
-.ritual-de-skincare ul p span a {
-  color: #343f48;
-  font-weight: 700;
-  padding-left: 1.25rem;
-}
-
-.ritual-de-skincare li p {
-  font-weight: 700;
-  padding-bottom: 0.75rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  display: flex;
-  width: 21.9rem;
-  box-sizing: border-box;
-  justify-content: space-between;
-  color: #343f48;
-}
-
-.ritual-de-skincare p.p-bold {
-  font-weight: 700;
-  color: #343f48;
-}
-
-.ritual-de-skincare p.p-bold-white {
-  color: #fff;
-}
-
-.ritual-de-skincare li p span a {
-  font-weight: 700;
-  color: #fff;
-}
-
-.ritual-de-skincare li {
-  align-content: flex-end;
-}
-
-.ritual-de-skincare div li.passo1-container {
-  background-image: url(./assets/FOREO_DAY4_4542_34.jpg);
-  background-repeat: no-repeat;
-  justify-content: end;
-}
-
-.ritual-de-skincare div li.passo2-container {
-  background-image: url(./assets/FOREO_DAY9_13162_34.jpg);
-  background-repeat: no-repeat;
-  justify-content: end;
-}
-
-.ritual-de-skincare div li.passo3-container {
-  background-image: url(./assets/FOREO_DAY1_1054_916.jpg);
-  background-repeat: no-repeat;
-  justify-content: end;
-}
-
-.oral-care {
-  display: block;
-  width: 80%;
-  margin: auto;
-}
-
-.oral-care-container {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-end;
-  gap: 2rem;
-}
-
-.oral-care-flex-wrap {
-  flex: 1;
-}
-
-.oral-care-adultos {
-  height: 39.75rem;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  flex: 1;
-}
-
-.oral-care-bebes-criancas {
-  display: flex;
-  height: 22.9rem;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  margin-top: 1.5rem;
-  gap: 2rem;
-}
-
-.oral-care-bebes,
-.oral-care-criancas {
-  height: 27.5rem;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  flex-grow: 1;
-}
-
-.oral-care h3 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-  font-size: 1.18rem;
-  text-transform: uppercase;
-  color: #343f48;
-  margin-bottom: 0.75rem;
-  letter-spacing: 0.405em;
-}
-
-.oral-care h2 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 800;
-  font-size: 2.3rem;
-  width: 22rem;
-  margin-bottom: 1.5rem;
-  color: #343f48;
-}
-
-.oral-care p {
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.18rem;
-  line-height: 1.4rem;
-  max-width: 100%;
-  color: #000;
-  font-weight: 400;
-  margin: 0;
-}
-
-.oral-care-bebes p,
-.oral-care-criancas p,
-.oral-care-adultos p {
-  padding: 0.75rem;
-  text-decoration: underline;
-  font-weight: 700;
-  color: #343f48;
-}
-
-.oral-care-bebes p,
-.oral-care-criancas p {
-  color: #fff;
-}
-
-.oral-care-bebes a,
-.oral-care-criancas a,
-.oral-care-adultos a {
-  padding: 0.75rem;
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.25rem;
-  color: #343f48;
-  font-weight: 700;
-  background-color: yellow;
-}
-
-.oral-care-adultos a {
-  color: #fff;
-}
-
-.oral-care-bebes {
-  background-image: url(./assets/FOREO_DAY3_3256_916.jpg);
-  background-repeat: no-repeat;
-  width: 100%;
-}
-
-.oral-care-criancas {
-  background-image: url(./assets/FOREO_DAY_9348__916.jpg);
-  background-repeat: no-repeat;
-  width: 100%;
-}
-
-.oral-care-adultos {
-  background-image: url(./assets/FOREO_DAY_8716_916.jpg);
-  background-repeat: no-repeat;
-  width: 100%;
-}
-
-.banner-serum-container {
-  min-height: 100vh;
-  background-size: cover;
-  background-position: top center;
-  position: relative;
-  background-image: url(./assets/7350092130462_5.jpg);
-  background-position: top center;
-  display: flex;
-  position: relative;
-  width: 80%;
-  margin: auto;
-  margin-top: 6rem;
-}
-
-.banner-serum-container img {
-  width: 100%;
-}
-
-.banner-serum {
-  position: absolute;
-  align-self: end;
-  bottom: 4.25rem;
-  left: 3rem;
-}
-
-.banner-serum h2 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 800;
-  font-size: 2.3rem;
-  color: #ffffff;
-  width: 17.4rem;
-  margin: 0;
-  margin-top: 0.75rem;
-  margin-bottom: 0.75rem;
-  padding: 0;
-}
-
-.banner-serum h3 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  font-size: 1.25rem;
-  text-transform: uppercase;
-  color: #fff;
-  margin: 0;
-  padding: 0;
-}
-
-.banner-serum a {
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.25rem;
-  color: #fff;
-  font-weight: 700;
-  padding: 0;
-  margin: 0;
-}
-
-.amado-pelas-celebridades {
-  text-align: center;
-  width: 80%;
-  margin: auto;
-}
-
-.amado-pelas-celebridades h3 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-  letter-spacing: 0.405em;
-  font-size: 1.25rem;
-  text-transform: uppercase;
-  color: #343f48;
-  margin: 0;
-  margin-bottom: 3.75rem;
-  margin-top: 5.25rem;
-}
-
-.amado-pelas-celebridades ul {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2rem;
-  text-decoration: none;
-  list-style: none;
-  padding: 0;
-  margin-bottom: 2.75rem;
-}
-
-.amado-pelas-celebridades ul li {
-  width: 20.12rem;
-  text-align: center;
-}
-
-.amado-pelas-celebridades p {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 0.93rem;
-  line-height: 1.12rem;
-  text-align: center;
-  font-family: "Montserrat", sans-serif;
-  max-width: 100%;
-  color: #000;
-  margin: 0;
-  margin-bottom: 1.75rem;
-}
+} */
 
 .um-cuidado-a-mais {
-  width: 69.8rem;
+  display: flex;
+  text-align: left;
+  width: 80%;
   margin: auto;
 }
 
-.um-cuidado-a-mais-div {
+.um-cuidado-a-mais-container {
+  font-weight: 800;
   display: flex;
-  justify-content: space-between;
+  align-items: flex-end;
+  gap: 2rem;
+  width: 100%;
+  /* justify-content: center; */
+  /* justify-content: space-between; */
+  margin: auto;
 }
 
-.um-cuidado-a-mais ul {
+.um-cuidado-a-mais-content {
   display: flex;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  margin-top: 2.75rem;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .um-cuidado-a-mais h3 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: 400 !important;
   font-size: 1.18rem;
   text-transform: uppercase;
   color: #343f48;
   margin-bottom: 0.75rem;
   letter-spacing: 0.405em;
-  margin-top: 2.12rem;
+  margin-top: 2.1rem;
 }
 
 .um-cuidado-a-mais h2 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 800;
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: 800 !important;
   font-size: 2.3rem;
-  width: 41.18rem;
   margin-bottom: 1.5rem;
   color: #343f48;
   margin-right: 2rem;
 }
 
 .um-cuidado-a-mais p {
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.18rem;
+  font-family: "Montserrat", sans-serif !important;
   line-height: 1.4rem;
-  width: 25.68rem;
   color: #000;
-  font-weight: 400;
+  font-weight: 400 !important;
   margin: 0;
 }
 
-.um-cuidado-a-mais-div-li {
+.um-cuidado-a-mais-revitalizacao,
+.um-cuidado-a-mais-espuma {
   display: flex;
-  margin-top: 1.5rem;
-  gap: 2rem;
-}
-
-.um-cuidado-a-mais-div-li li {
-  display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
   width: 19.8rem;
-  height: 34.8rem;
-  margin: 0;
-  padding: 0;
-  align-content: space-between;
-  justify-content: flex-start;
 }
 
 .um-cuidado-a-mais-revitalizacao p,
 .um-cuidado-a-mais-espuma p {
   padding: 0.75rem;
   text-decoration: underline;
-  font-weight: 700;
+  font-weight: 700 !important;
   color: #343f48;
 }
 
 .um-cuidado-a-mais-revitalizacao p,
 .um-cuidado-a-mais-espuma p {
-  font-size: 0.93rem;
   color: #fff;
+}
+
+.um-cuidado-a-mais-revitalizacao-espuma {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 1.5rem;
+  gap: 2rem;
+  justify-content: center;
 }
 
 .um-cuidado-a-mais-revitalizacao {
   background-image: url(./assets/IRIS_PRODUCT_916.jpg);
   background-repeat: no-repeat;
-  width: 100%;
+  height: 32rem;
 }
 
 .um-cuidado-a-mais-espuma {
   background-image: url(./assets/FOREO_DAY7_10595_34.jpg);
   background-repeat: no-repeat;
-  width: 100%;
+  height: 32rem;
 }
 
-.um-cuidado-a-mais-div-li .p-bold-white {
+.um-cuidado-a-mais-revitalizacao-espuma .p-bold-white {
   align-items: flex-end;
   text-decoration: none;
+  width: auto;
+  display: flex;
+  justify-content: space-between;
 }
 
-.um-cuidado-a-mais-div-li .p-bold-white-quebra {
+.um-cuidado-a-mais-revitalizacao-espuma .p-bold-white-quebra {
   width: 9.75rem;
 }
 
 .um-cuidado-a-mais-revitalizacao a,
 .um-cuidado-a-mais-espuma a {
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.25rem;
-  color: #343f48;
-  font-weight: 700;
-  width: 1.93rem;
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 0.8rem;
+  color: #fff;
+  font-weight: 700 !important;
 }
 
-.um-cuidado-a-mais-div-li li p,
-.um-cuidado-a-mais-div-li li a {
+/* .um-cuidado-a-mais-revitalizacao-espuma li p,
+.um-cuidado-a-mais-revitalizacao-espuma li a {
   display: flex;
   color: #fff;
   font-size: 0.93rem;
   justify-content: space-between;
-}
-
-.o-que-a-imprensa-diz {
-  text-align: center;
-  width: 80%;
-  margin: auto;
-}
-
-.o-que-a-imprensa-diz-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2rem;
-}
-
-.o-que-a-imprensa-diz h3 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-  letter-spacing: 0.405em;
-  font-size: 1.25rem;
-  text-transform: uppercase;
-  color: #343f48;
-  margin: 0;
-  margin-bottom: 3.75rem;
-  margin-top: 5.6rem;
-}
-
-.o-que-a-imprensa-diz p {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 0.93rem;
-  line-height: 1.12rem;
-  text-align: center;
-  font-family: "Montserrat", sans-serif;
-  color: #000;
-  margin: 0;
-  margin-top: 1rem;
-  margin-bottom: 1.75rem;
-  width: 18rem;
-}
+  background-color: red;
+} */
